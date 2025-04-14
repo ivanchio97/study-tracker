@@ -1,0 +1,44 @@
+.asignatura{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.asignatura-header{
+  display: flex;
+  justify-content: space-between;
+}
+.asignatura-subtemas{
+  display: flex;
+  flex-direction:column;
+  gap: 15px;
+  margin-top: 10px;
+}
+.asignatura-subtemas-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  min-height: 60px;
+  font-size: 17px;
+  border-bottom: 1px solid rgb(177, 172, 172);
+}
+
+select:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: inherit; 
+}
+
+.asignatura-subtemas-item select{
+  border: none;
+  border-bottom: 1px solid black;
+}
+.item-buttons{
+  display: flex;
+  gap: 13px;
+  z-index: 20;
+}
+.item-buttons button{
+  background-color: transparent;
+  border: 0px;
+}

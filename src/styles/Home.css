@@ -1,0 +1,11 @@
+.home-buttons{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+input{
+  padding-left: 10px;
+}
+strong{
+  font-size: 15px;
+}
