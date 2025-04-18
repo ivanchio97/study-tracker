@@ -18,3 +18,22 @@ body{
   gap: 15px;
   height: 400px;
 }
+.nav-bar{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.back-arrow{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #212529;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+}
