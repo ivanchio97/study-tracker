@@ -29,8 +29,8 @@ const Signature = () =>{
       return acc + 25;
     }, 0);
   
-    const promedio = total / asignatura.subtemas.length;
-    setProgreso(Math.round(promedio));
+    const promedio = Math.round(total / asignatura.subtemas.length) 
+    setProgreso(promedio);
 
     const docRef = doc(db, 'asignaturas', id)
     updateDoc(docRef,{
